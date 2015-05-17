@@ -1,0 +1,3 @@
+codementor.chart.bar = function() {
+
+};
