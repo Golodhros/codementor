@@ -8,10 +8,7 @@ module.exports = function(grunt) {
         concat: {
             js: {
                 src: [
-                    'src/start.js',
-                    'src/chart/bar.js',
-                    'src/layout/layout.js',
-                    'src/end.js'
+                    'src/chart/bar.js'
                 ],
                 dest: 'dist/codementor.js'
             }
@@ -35,7 +32,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
     grunt.registerTask('build', ['concat', 'uglify']);
-
 
 };
 

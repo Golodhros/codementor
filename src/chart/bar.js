@@ -1,3 +1,7 @@
-codementor.chart.bar = function() {
+define(function(require){
+    'use strict';
 
-};
+
+
+
+});
