@@ -1,3 +1,4 @@
 codementor.chart.bar = function() {
 
+
 };
